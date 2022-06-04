@@ -1,0 +1,53 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.section1__div1 {
+    display: flex;
+    justify-content: center;
+}
+
+.img1 {
+    height: 400px;
+}
+
+.section1__div2 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 25px;
+    padding-left: 3%;
+    padding-right: 3%;
+    color: rgba(63, 90, 141, 0.63);
+}
+
+/* Termina section1 */ 
+
+.section2 {
+    background-image: url(https://i.pinimg.com/564x/f0/f0/75/f0f0758baca467690d0f68ca2f4703a7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 10%;
+    padding-top: 5%;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 200px 200px;
+}
+
+.section2__div1 {
+    font-family: 'Indie Flower', cursive;
+    color: beige;
+    font-size: 40px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.section2__div2 {
+    font-family: 'Indie Flower', cursive;
+    color: beige;
+    font-size: 30px;
+    display: flex;
+    justify-content: flex-start;
+
+}

@@ -1,0 +1,127 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: rgba(0, 0, 0, 0.822);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 200px;
+    padding-top: 3%;
+}
+
+h1, p, a {
+    color: #E8DED3;
+    font-family: 'Indie Flower', cursive;
+}
+
+img {
+    height: 600px;
+    border-radius: 40px;
+}
+
+.h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+}
+
+.img__div {
+    display: flex;
+    justify-content: center;
+}
+
+.p {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    padding-top: 3%;
+}
+
+.a {
+    text-decoration: none;
+    font-size: 30px;
+    padding-left: 20%;
+    padding-bottom: 10%;
+    display: inline-flex;
+}
+
+.a:hover {
+    color: green;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 991px) {
+
+    .body {
+
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1150px;
+        grid-template-areas: "Header";
+    }
+
+    .header {
+        background-color: rgba(0, 0, 0, 0.822);
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 150px 450px 300px 200px;
+        padding-top: 3%;
+    }
+    
+    
+    h1, p, a {
+        color: #E8DED3;
+        font-family: 'Indie Flower', cursive;
+    }
+    
+    img {
+        height: 400px;
+        border-radius: 40px;
+    }
+    
+    .h1 {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        font-size: 40px;
+        grid-column-start: 1;
+        grid-row-start: 1;
+    }
+    
+    .img__div {
+        display: flex;
+        justify-content: center;
+        grid-column-start: 1;
+        grid-row-start: 2;
+    }
+    
+    .p {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        font-size: 25px;
+        display: flex;
+        justify-content: center;
+        padding-top: 3%;
+        padding-left: 3%;
+        padding-right: 7%;
+    }
+    
+    .a {
+        text-decoration: none;
+        font-size: 30px;
+        padding-left: 20%;
+        padding-bottom: 10%;
+        display: inline-flex;
+        align-items: center;
+    }
+    
+    .a:hover {
+        color: green;
+    }
+}
+
