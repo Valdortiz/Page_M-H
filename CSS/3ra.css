@@ -4,35 +4,69 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+    font-family: 'Indie Flower', cursive;
+    font-size: 25px;
+    color: rgba(63, 90, 141, 0.63);
+}
+
+a:hover {
+    color: palevioletred;
+}
+
+.mh {
+    text-decoration: none;
+    font-family: 'Indie Flower', cursive;
+    font-size: 65px;
+    color: rgba(63, 90, 141, 0.63);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-left: 5%;
+    padding-right: 10%;
+    padding-top: 2%;
+    padding-bottom: 3%;
+    background-color: rgba(128, 128, 128, 0.205);
+}
+
+/* Termina Header */
+
 .section1__div1 {
     display: flex;
     justify-content: center;
 }
 
 .img1 {
-    height: 400px;
+    height: 300px;
 }
 
 .section1__div2 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
     font-family: 'Indie Flower', cursive;
     font-size: 25px;
     padding-left: 3%;
     padding-right: 3%;
     color: rgba(63, 90, 141, 0.63);
+    line-height: 45px;
 }
 
 /* Termina section1 */ 
 
 .section2 {
-    background-image: url(https://i.pinimg.com/564x/f0/f0/75/f0f0758baca467690d0f68ca2f4703a7.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 10%;
+    background-color: #E4C0B7;
     padding-top: 5%;
-    margin-top: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-top: 10%;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 200px 200px;
+    grid-template-rows: 200px 300px;
 }
 
 .section2__div1 {
@@ -50,4 +84,166 @@
     display: flex;
     justify-content: flex-start;
 
+}
+
+.section3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 300px 300px;
+    margin-top: 5%;
+}
+
+.section3__div1 {
+    padding-top: 5%;
+}
+
+.section3__div2 {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    height: 600px;
+    border-radius: 40px;
+}
+
+h2 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 40px;
+}
+
+p {
+    font-family: 'Indie Flower', cursive;
+    font-size: 25px;
+    line-height: 45px;
+}
+
+.section4 {
+    background-color: #969FA2;
+    padding-top: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 150px 300px;
+}
+
+.section4__div1 {
+    font-family: 'Indie Flower', cursive;
+    color: beige;
+    font-size: 40px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.section4__div2 {
+    font-family: 'Indie Flower', cursive;
+    color: beige;
+    font-size: 30px;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.section5 {
+    display: grid;
+    grid-template-columns: 850px 1fr;
+    grid-template-rows: 300px 300px;
+    margin-top: 5%;
+}
+
+.section5__div1 {
+    padding-left: 5%;
+    padding-top: 5%;
+}
+
+.section5__div2 {
+    display: flex;
+    justify-content: center;
+}
+
+.section6 {
+    background-color: #98A267;
+    padding-top: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 150px 320px;
+}
+
+.section6__div1 {
+    font-family: 'Indie Flower', cursive;
+    color: beige;
+    font-size: 40px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.section6__div2 {
+    font-family: 'Indie Flower', cursive;
+    color: beige;
+    font-size: 30px;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.section7 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 650px 300px;
+    margin-top: 5%;
+}
+
+.section7__div2 {
+    display: flex;
+    justify-content: center;
+}
+
+.img {
+    width: 600px;
+    object-fit: cover;
+}
+
+.section7__div1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+/* Termina Section 7 y comienza Grid
+de imágenes */
+
+.enter {
+    padding: 3% 3% 8% 10%;
+    background-color: rgba(128, 128, 128, 0.205);
+}
+
+.h2__8 {
+    font-size: 40px;
+    color: rgba(63, 90, 141, 0.63);
+}
+
+.section8 {
+    display: grid;
+    grid-template-columns: repeat(3, 420px);
+    grid-template-rows: 1fr 1fr;
+    row-gap: 20px;
+    background-color: rgba(128, 128, 128, 0.205);
+}
+
+.img1 {
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+}
+
+.div__section8 {
+    display: flex;
+    justify-content: center;
 }
