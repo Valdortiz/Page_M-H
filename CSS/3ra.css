@@ -220,13 +220,12 @@ p {
 de imágenes */
 
 .enter {
-    padding: 3% 3% 8% 10%;
-    background-color: rgba(128, 128, 128, 0.205);
+    padding: 5% 3% 8% 10%;
 }
 
 .h2__8 {
-    font-size: 40px;
-    color: rgba(63, 90, 141, 0.63);
+    font-size: 50px;
+    color: black;
 }
 
 .section8 {
@@ -234,16 +233,69 @@ de imágenes */
     grid-template-columns: repeat(3, 420px);
     grid-template-rows: 1fr 1fr;
     row-gap: 20px;
-    background-color: rgba(128, 128, 128, 0.205);
 }
 
 .img1 {
-    height: 250px;
-    width: 250px;
+    height: 200px;
+    width: 200px;
     object-fit: cover;
 }
 
 .div__section8 {
     display: flex;
     justify-content: center;
+}
+
+.div1 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.div2 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.div3 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.div4 {
+    display: flex;
+    justify-content: flex-start;
+}
+
+/* Termina Section 8 */
+
+.section9 {
+    background-color: #2A2E78;
+    margin-top: 5%;
+    padding: 7% 3% 10% 3% ;
+}
+
+.section9__div2 {
+    padding: 5%;
+}
+
+.section9__div3 {
+    padding-top: 10%;
+    display: flex;
+}
+
+.write {
+    color: rgba(255, 255, 255, 0.562);
+}
+
+.section9__h1 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 80px;
+    padding: 15% 3% 5% 10%;
+    color: rgba(240, 248, 255, 0.425);
+}
+
+.img4 {
+    height: 600px;
+    width: 700px;
+    object-fit: cover;
 }
